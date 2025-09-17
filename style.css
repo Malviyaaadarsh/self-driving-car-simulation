@@ -1,7 +1,7 @@
 body {
     margin-right: 40px;
-    background: rgb(0, 0, 0);
-    overflow: hidden;
+    background: rgb(255, 193, 193);
+    overflow: auto;
     text-align: center;
 }
 .silkscreen-regular {
@@ -15,11 +15,11 @@ body {
     font-style: normal;
 }
 #back {
-    background-color: coral;
+    background-color: rgb(230, 6, 6);
     justify-content: center;
-    margin: 25px 20px 20px 5px;
-    height: 30px;
-    width: 98vw;
+    margin: auto; 
+    height: 22px;
+    width: 100%;
     border: 3px solid transparent;
     border-radius: 4px;
 }
@@ -43,6 +43,9 @@ body {
     border-radius: 12px;
     background-color: rgb(229, 234, 184);
     margin: 5px 20px 20px 5px;
-    width: 98vw;
+    width: 100%;
 }
-
+.footer {
+    background-color:black ; 
+    color:white; 
+}
