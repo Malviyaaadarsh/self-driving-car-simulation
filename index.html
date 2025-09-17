@@ -2,27 +2,44 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Self Driving Simulator</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Self Driving Simulator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <div><p class="silkscreen-bold">Self-Driving Car Simulator</p></div>
-  <div class="container"><div class="simulation-window"><div><p class="silkscreen-bold">Road Simulation</p></div>
-  <canvas id="road-canvas"></canvas></div>
-    <div class="simulation-window"><div><p class="silkscreen-bold">Neural Network Visualizer</p></div>
-  <canvas id="neural-canvas"></canvas></div>
-  <div class="simulation-window"><div><p class="silkscreen-bold">Output : Best Path Detected</p></div>
-  <canvas id="output-canvas"></canvas></div>
-</div>
-   <script src="utility.js"></script>
-   <script src="road.js"></script>
-   <script src="car-controls.js"></script>
-   <script src="testcar.js"></script>
-   <script src="mainscript.js"></script>
+  <div>
+    <p id="back" class="silkscreen-bold">Self-Driving Car Simulator</p>
+  </div>
+  <div class="container">
+    <div class="simulation-window">
+      <div>
+        <p class="silkscreen-bold">Road Simulation</p>
+      </div>
+      <canvas id="road-canvas"></canvas>
+    </div>
+    <div class="simulation-window">
+      <div>
+        <p class="silkscreen-bold">Neural Network Visualizer</p>
+      </div>
+      <canvas id="neural-canvas"></canvas>
+    </div>
+    <div class="simulation-window">
+      <div>
+        <p class="silkscreen-bold">Output : Best Path Detected</p>
+      </div>
+      <canvas id="output-canvas"></canvas>
+    </div>
+  </div>
+  <script src="utility.js"></script>
+  <script src="road.js"></script>
+  <script src="car-controls.js"></script>
+  <script src="testcar.js"></script>
+  <script src="mainscript.js"></script>
 </body>
+
 </html>
