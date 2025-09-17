@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,17 +9,16 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
   <div>
-    <p id="back" class="silkscreen-bold">Self-Driving Car Simulator</p>
+    <p id="back" class="silkscreen-bold">------------------------------------------Self-Driving Car Simulator------------------------------------------</p>
   </div>
   <div class="container">
     <div class="simulation-window">
       <div>
         <p class="silkscreen-regular">Road Simulation</p>
       </div>
-      <canvas id="road-canvas"></canvas>
+  <canvas id="road-canvas" tabindex="0"></canvas>
     </div>
     <div class="simulation-window">
       <div>
@@ -35,12 +33,24 @@
       <canvas id="output-canvas"></canvas>
     </div>
   </div>
+  <div><p class="silkscreen-bold">About the Project</p>
+    <div>
+      <p>Title: Neural Network for Objec Detection in a self-driving car simulator.</p>
+      <p class="silkscreen-regular">Controls : Use Arrow Keys to Drive the Car Manually</p>
+    
+    </div>
+  </div>
+  <footer class="footer">&copy Aadarsh Malviya</footer>
   <script src="utility.js"></script>
   <script src="road.js"></script>
   <script src="car-controls.js"></script>
   <script src="testcar.js"></script>
   <script src="mainscript.js"></script>
+  <script>
+    document.getElementById('road-canvas').addEventListener('click', function() {
+      this.focus();
+    });
+  </script>
 </body>
-
 </html>
 
