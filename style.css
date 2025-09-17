@@ -1,6 +1,6 @@
 body {
     margin-right: 40px;
-    background: rgb(69, 117, 37);
+    background: rgb(0, 0, 0);
     overflow: hidden;
     text-align: center;
 }
@@ -17,7 +17,7 @@ body {
 #back {
     background-color: coral;
     justify-content: center;
-    margin: 5px 20px 20px 5px;
+    margin: 25px 20px 20px 5px;
     height: 30px;
     width: 98vw;
     border: 3px solid transparent;
@@ -35,12 +35,14 @@ body {
     height: 680px;
     justify-content: center;
     margin: 20px;
+    background-color:rgb(104, 142, 114); 
 }
 .container {
     display: flex;
     border: 2px solid red;
     border-radius: 12px;
-    background-color: rgb(193, 230, 243);
+    background-color: rgb(229, 234, 184);
     margin: 5px 20px 20px 5px;
     width: 98vw;
 }
+
