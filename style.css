@@ -1,0 +1,46 @@
+body {
+    margin-right: 40px;
+    background: rgb(69, 117, 37);
+    overflow: hidden;
+    text-align: center;
+}
+.silkscreen-regular {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.silkscreen-bold {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+#back {
+    background-color: coral;
+    justify-content: center;
+    margin: 5px 20px 20px 5px;
+    height: 30px;
+    width: 98vw;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+#road-canvas {
+    background: rgb(191, 183, 183);
+    border: 6px solid rgb(234, 226, 226);
+    border-radius: 15px;
+}
+.simulation-window {
+    border: 2px solid black;
+    border-radius: 40px;
+    width: 450px;
+    height: 680px;
+    justify-content: center;
+    margin: 20px;
+}
+.container {
+    display: flex;
+    border: 2px solid red;
+    border-radius: 12px;
+    background-color: rgb(193, 230, 243);
+    margin: 5px 20px 20px 5px;
+    width: 98vw;
+}
