@@ -1,56 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Self Driving Simulator</title>
+  <link rel="icon" type="image/jpg" href="favicon.jpg">
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <div>
-    <p id="back" class="silkscreen-bold">------------------------------------------Self-Driving Car Simulator------------------------------------------</p>
+    <h4 id="back" class="silkscreen-bold">------------------------------------------Self-Driving Car
+      Simulator------------------------------------------</h4>
   </div>
   <div class="container">
     <div class="simulation-window">
       <div>
-        <p class="silkscreen-regular">Road Simulation</p>
+        <p class="silkscreen-regular"><u>Road Simulation</u></p>
       </div>
-  <canvas id="road-canvas" tabindex="0"></canvas>
+      <canvas id="road-canvas" tabindex="0"></canvas>
     </div>
     <div class="simulation-window">
       <div>
-        <p class="silkscreen-regular">Neural Network Visualizer</p>
+        <p class="silkscreen-regular"><u>Network Visualizer</u></p>
       </div>
       <canvas id="neural-canvas"></canvas>
     </div>
     <div class="simulation-window">
       <div>
-        <p class="silkscreen-regular">Output : Best Path Detected</p>
+        <p class="silkscreen-regular"><u>Output : Best Path Detected</u></p>
       </div>
       <canvas id="output-canvas"></canvas>
     </div>
   </div>
-  <div><p class="silkscreen-bold">About the Project</p>
-    <div>
-      <p>Title: Neural Network for Objec Detection in a self-driving car simulator.</p>
-      <p class="silkscreen-regular">Controls : Use Arrow Keys to Drive the Car Manually</p>
-    
+  <div>
+    <p class="silkscreen-bold">About the Project</p>
+    <p><b>⚠️ Status: </b>This project is currently under active development. Features may change frequently.</p>
+    <div class="project-description">
+      <p><b>Title : </b>Neural Network for Object Detection in a self-driving car simulator.</p>
+      <p><b>Controls : </b>Use Arrow Keys to Drive the Car Manually</p>
+      <p><b>Technologies Used : </b>HTML, CSS, JavaScript</p>
+      <p><b>Description : </b>This project simulates a self-driving car using a neural network
+        to detect and avoid obstacles on the road. The car is trained using a genetic algorithm to improve its
+        performance over time. The simulation includes a visual representation of the neural network and the car's path.
+      </p>
+      <p><b>GitHub Repository : </b><a href="https://github.com/Malviyaaadarsh/self-driving-car-simulation">Click Here</a>
+      <p>For contributing to the project, send your proposal to malviyaaadarsh45@gmail.com or open a PR in the above
+        repository.</p>
     </div>
   </div>
-  <footer class="footer">&copy Aadarsh Malviya</footer>
+  <footer class="footer"><h3>&copy; Author : Aadarsh Malviya 2025</h3>
+  <p>Connect with me on :   <a href="https://www.linkedin.com/in/aadarsh-malviya/">LinkedIn</a>
+  <a href="https://github.com/Malviyaaadarsh">Github</a></p>
+  </footer>
   <script src="utility.js"></script>
   <script src="road.js"></script>
   <script src="car-controls.js"></script>
   <script src="testcar.js"></script>
   <script src="mainscript.js"></script>
   <script>
-    document.getElementById('road-canvas').addEventListener('click', function() {
+    document.getElementById('road-canvas').addEventListener('click', function () {
       this.focus();
     });
   </script>
 </body>
 </html>
-
