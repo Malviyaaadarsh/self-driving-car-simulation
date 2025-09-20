@@ -45,7 +45,15 @@ body {
     margin: 5px 20px 20px 5px;
     width: 100%;
 }
-.footer {
+.footer{
+    margin:auto ; 
     background-color:black ; 
     color:white; 
+    overflow: auto;
 }
+
+.project-description {
+    text-align: left;
+    margin: 10px 25px 25px 25px;
+}
+
